@@ -1,0 +1,12 @@
+{
+    "successMessage": {
+        "USER_SUBMITTED": "USER_SUBMITTED",
+        "CAR_SUBMITTED": "CAR_SUBMITTED",
+        "CAR_SOLD": "CAR_SOLD",
+        "CAR_DETAILS_RETRIEVED": "CAR_DETAILS_RETRIEVED"
+    },
+    "errorMessage": { 
+        "BLOCKCHAIN_RUNTIME_ERROR": "BLOCKCHAIN_RUNTIME_ERROR",
+        "INVALID_ADDRESS": "INVALID_ADDRESS"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "JWTSecret":"JWTSecret",
+  "logConfig": {
+    "datePattern": "YYYY-MM-DD",
+    "maxFiles": "30d",
+    "zippedArchive": false,
+    "label": "UPOV",
+    "logLevel":"debug",
+    "logPath":"/log/app.log"
+  },
+  "totalRetryAttempts": 2,
+  "retryDelaySeconds": 3,
+  "millisecondsIn30Days": "2592000000",
+  "requestLimit": "1000mb",
+  "serverTimeout": 240000,
+  "operations": {
+    "privateData": true
+  },
+
+  "authority": {
+    "name": "JAPAN",
+    "serverID": "JP",
+    "orgName": "japan.eapvp.com",
+    "networkConfig": "connection-japan.json",
+    "caName": "ca.japan.eapvp.com",
+    "mspId": "JapanMSP",
+    "userName": "admin",
+    "affiliation": "japan.department1",
+    "channelName": "jppvppchannel",
+    "chaincodeName": "jppvppchain"
+  }
+}

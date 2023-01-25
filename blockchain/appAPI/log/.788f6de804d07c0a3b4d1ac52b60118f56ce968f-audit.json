@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/dmalik/test/eapvp/blockchain/appAPI/log/.788f6de804d07c0a3b4d1ac52b60118f56ce968f-audit.json",
+    "files": [
+        {
+            "date": 1674632745187,
+            "name": "/home/dmalik/test/eapvp/blockchain/appAPI/log/app.log.2023-01-25",
+            "hash": "fc2c02248c8bf5ac97a2af5f83a06570994711e34976b6c1ad2feefe5acf5ef4"
+        }
+    ],
+    "hashType": "sha256"
+}

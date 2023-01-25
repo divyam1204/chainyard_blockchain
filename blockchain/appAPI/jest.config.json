@@ -1,0 +1,6 @@
+{
+    "testRegex": "((\\.|/*.)(test))\\.js?$",
+    "moduleNameMapper": {
+        "config.json": "<rootDir>/_tests_/src/config/testConfig.json"
+    }
+}

@@ -1,0 +1,3 @@
+Installed chaincodes on peer:
+Package ID: jppvppchain_1:d473b01342c5dd42fba74d1a81369e854052762eed4ca4fed520886171e9de28, Label: jppvppchain_1
+Package ID: jppvppchain_2:e7d334eaea196cbe2c09596557448c14970f81b9328910ab889b0fe7b6df24ee, Label: jppvppchain_2

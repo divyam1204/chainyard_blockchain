@@ -1,0 +1,49 @@
+{
+    "name": [
+        "jppvppchannel"
+    ],
+    "jppvppchannel": [
+        "peer0.pvpp.eapvp.com",
+        "peer0.japan.eapvp.com"
+    ],
+    "ordererName": "orderer.eapvp.com",
+    "ordererOrg": "eapvp.com",
+    "ordererUrl": "localhost:7050",
+    "ordererArtifactsPath": "organizations/ordererOrganizations",
+    "chaincodeName": [
+        "jppvppchain"
+    ],
+    "chaincodePath": [
+        "automated_script/src/go/pvpAdmin"
+    ],
+    "peerArtifactsPath": "organizations/peerOrganizations",
+    "peers": [
+        "peer0.pvpp.eapvp.com",
+        "peer0.japan.eapvp.com"
+    ],
+    "JpPvppChannelPeers": [
+        "peer0.pvpp.eapvp.com",
+        "peer0.japan.eapvp.com"
+    ],
+    "artifactsDirectory": "organizations/peerOrganizations",
+    "version": 1,
+    "sequence": 1,
+    "orgs": [
+        {
+            "name": "japan.eapvp.com",
+            "mspId": "JapanMSP",
+            "corePeerAddress": "localhost:7051",
+            "peers": [
+                "peer0.japan.eapvp.com"
+            ]
+        },
+        {
+            "name": "pvpp.eapvp.com",
+            "mspId": "PvppMSP",
+            "corePeerAddress": "localhost:13051",
+            "peers": [
+                "peer0.pvpp.eapvp.com"
+            ]
+        }
+    ]
+}
